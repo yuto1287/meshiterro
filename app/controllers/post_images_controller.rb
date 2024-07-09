@@ -22,7 +22,7 @@ class PostImagesController < ApplicationController
 
   def show
     @post_image = PostImage.find(params[:id])
-    @postcomment = PostComment.new
+    @post_comment = PostComment.new
   end
 
   private
